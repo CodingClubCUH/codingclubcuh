@@ -1,0 +1,31 @@
+.first_par{
+    background-color: black;
+}
+
+*{
+    box-sizing: border-box;
+}
+.coloum{
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+}
+
+.row::after{
+    
+    content: "";
+    display:table
+    clear:both;
+    
+}
+.main{
+   font-size: 30px;
+    text-align: center;
+}
+
+.main h1{
+       
+}
+
+
+
